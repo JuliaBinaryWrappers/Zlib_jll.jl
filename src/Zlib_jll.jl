@@ -3,7 +3,7 @@ using Pkg, Pkg.BinaryPlatforms, Pkg.Artifacts, Libdl
 import Base: UUID
 
 # Load Artifacts.toml file
-artifacts_toml = joinpath(@__DIR__, "Artifacts.toml")
+artifacts_toml = joinpath(@__DIR__, "..", "Artifacts.toml")
 
 # Extract all platforms
 artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("83775a58-1f1d-513f-b197-d71354ab007a"))

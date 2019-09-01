@@ -9,7 +9,7 @@ LIBPATH = ""
 LIBPATH_env = "PATH"
 
 # Relative path to `libz`
-const libz_splitpath = ["bin", "libzlib.dll"]
+const libz_splitpath = ["bin", "libz.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libz_path = ""
@@ -19,7 +19,7 @@ libz_path = ""
 libz_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libz = "libzlib.dll"
+const libz = "libz.dll"
 
 
 """

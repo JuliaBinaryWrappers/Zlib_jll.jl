@@ -15,11 +15,12 @@ platforms = filter(p -> isfile(joinpath(@__DIR__, "wrappers", triplet(p) * ".jl"
 # From the available options, choose the best platform
 best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
 
+# Silently fail if there's no binaries for this platform
 if best_platform === nothing
-    error("Unable to load Zlib; unsupported platform $(triplet(platform_key_abi()))")
+    @debug("Unable to load Zlib; unsupported platform $(triplet(platform_key_abi()))")
+else
+    # Load the appropriate wrapper
+    include(joinpath(@__DIR__, "wrappers", "$(best_platform).jl"))
 end
-
-# Load the appropriate wrapper
-include(joinpath(@__DIR__, "wrappers", "$(best_platform).jl"))
 
 end  # module Zlib_jll

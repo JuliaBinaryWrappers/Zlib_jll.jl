@@ -2,6 +2,11 @@ module Zlib_jll
 using Pkg, Pkg.BinaryPlatforms, Pkg.Artifacts, Libdl
 import Base: UUID
 
+# We put these inter-JLL-package API values here so that they are always defined, even if there
+# is no underlying wrapper held within this JLL package.
+const PATH_list = String[]
+const LIBPATH_list = String[]
+
 # Load Artifacts.toml file
 artifacts_toml = joinpath(@__DIR__, "..", "Artifacts.toml")
 

@@ -1,113 +1,113 @@
 [[Zlib]]
 arch = "x86_64"
-git-tree-sha1 = "01af548ee83126fd01803f111acdb676258a8c52"
-libc = "glibc"
-os = "linux"
-
-    [[Zlib.download]]
-    sha256 = "b733a4ad486e6e4c8d9168c1f70333e7e6e64331c04a068ea608e8b820933c21"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.x86_64-linux-gnu.tar.gz"
-[[Zlib]]
-arch = "x86_64"
-git-tree-sha1 = "be45c8d24869df951113fb8ff30ddda299db9af7"
+git-tree-sha1 = "5380d14bcb7aa02faae6fdfab6876672501c7192"
 os = "macos"
 
     [[Zlib.download]]
-    sha256 = "4487aba8b584ec732ea3bb567e9b98dd9e23f256294841adb84e7cf86ca6451a"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.x86_64-apple-darwin14.tar.gz"
+    sha256 = "4edb036d017910017ea30c2b3ae197a08f8d0156b0b739f147dcb730838c530d"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.x86_64-apple-darwin14.tar.gz"
 [[Zlib]]
 arch = "i686"
-git-tree-sha1 = "5bb306990e2c801cae0f5e6d0dd93bd971540649"
-os = "windows"
-
-    [[Zlib.download]]
-    sha256 = "4971a6447699fd9a806199e8a196fcd5fd1b0b3cc5a87cd5d6d78193a448b093"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.i686-w64-mingw32.tar.gz"
-[[Zlib]]
-arch = "aarch64"
-git-tree-sha1 = "22d19a03bf3b22d622a7ef11520cea511e24fae8"
+git-tree-sha1 = "a96477c8bd83c7c4754157c91a087b32c46e65ac"
 libc = "glibc"
 os = "linux"
 
     [[Zlib.download]]
-    sha256 = "21f91fad2fd1a2903a72b1b9dbb833dbc81df115268a9e3e80350d9a5b71d950"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.aarch64-linux-gnu.tar.gz"
-[[Zlib]]
-arch = "i686"
-git-tree-sha1 = "e0bc0363ed98f2b962db1859cf7c0df4a806560d"
-libc = "musl"
-os = "linux"
-
-    [[Zlib.download]]
-    sha256 = "8deea79e1172972634e0ced27e756139cf1e205ee6b0ecc5601835c72fe42962"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.i686-linux-musl.tar.gz"
+    sha256 = "c3331d4896ad0dca6ab761504314c9b56fe88dffa9fa3cef4e29a45818dd8241"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.i686-linux-gnu.tar.gz"
 [[Zlib]]
 arch = "x86_64"
-git-tree-sha1 = "02daa918cd44a5fc0736deca451ab368db1016cf"
-os = "windows"
-
-    [[Zlib.download]]
-    sha256 = "1010aa960a0c721a88dd9c46c6d0b3bd209e8b9f2ed27a8f9a5e9523dabc8f0c"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.x86_64-w64-mingw32.tar.gz"
-[[Zlib]]
-arch = "powerpc64le"
-git-tree-sha1 = "2367492160f72c841b46540550f16f4d1c10d5be"
-libc = "glibc"
-os = "linux"
-
-    [[Zlib.download]]
-    sha256 = "2854a41a7f15430aed0df4e5d9208b20afb27123941ce71af4b0c99dcf4a3b28"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.powerpc64le-linux-gnu.tar.gz"
-[[Zlib]]
-arch = "x86_64"
-git-tree-sha1 = "a629ae8882119fb19375ac5dd7fb424b4c412146"
+git-tree-sha1 = "32ea9a3be50b6f1c8e1d1bdee5d54d780a5161d6"
 os = "freebsd"
 
     [[Zlib.download]]
-    sha256 = "9c87da9a21351a25fb6a1c806f14421da345649c3c6f4c8d83e0aa3e00b95922"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "7288490368ca282ca68eb30122d0a118afa36e620b6ffea153e0d588908bbeed"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.x86_64-unknown-freebsd11.1.tar.gz"
 [[Zlib]]
-arch = "armv7l"
-git-tree-sha1 = "ffefb2e96a102c1c27591061d25e657422668ffa"
-libc = "musl"
-os = "linux"
-
-    [[Zlib.download]]
-    sha256 = "627d93d9981ca5d0b19ead1356bffaacf8dd66e5627b60eadb449cc8618d8ee8"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.arm-linux-musleabihf.tar.gz"
-[[Zlib]]
-arch = "aarch64"
-git-tree-sha1 = "0fa425508c4af8c1c331e198a4b5d0b7ff5ecbb4"
-libc = "musl"
-os = "linux"
-
-    [[Zlib.download]]
-    sha256 = "91fcbb2d4720102deb5af81996f40b0ec11410ab8278f48b0b1cd08ffd01af45"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.aarch64-linux-musl.tar.gz"
-[[Zlib]]
-arch = "i686"
-git-tree-sha1 = "8f4277c123a30377fe061dde4c1e9a8f00ae08bd"
+arch = "powerpc64le"
+git-tree-sha1 = "f060b46f99234ba46a3d313dc3ae24b3319501ab"
 libc = "glibc"
 os = "linux"
 
     [[Zlib.download]]
-    sha256 = "12f0c3aa21aa4609b4eb4363f3ce47f8b648ee82cdaf46a2c60dc7a0d81f84ef"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.i686-linux-gnu.tar.gz"
+    sha256 = "6e560c5f62f3ac5656cbdfe4012861a167245c75d2c22b6e6d7196f29713f8be"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.powerpc64le-linux-gnu.tar.gz"
 [[Zlib]]
 arch = "x86_64"
-git-tree-sha1 = "6cc35615452a57a283e0635a31e2a8ae459c6979"
+git-tree-sha1 = "bab111e9781b1777066f20e32cb92ed104d4493a"
 libc = "musl"
 os = "linux"
 
     [[Zlib.download]]
-    sha256 = "d179217caa04f5aa5fae6b7851c0344f142fca635f0561c5f4f14a86bb534d7b"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.x86_64-linux-musl.tar.gz"
+    sha256 = "4f1c3664e9a6d88bde194ac40ce3f0af673977812fded7d829146dc3ece7f7ee"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.x86_64-linux-musl.tar.gz"
 [[Zlib]]
-arch = "armv7l"
-git-tree-sha1 = "2b59515402195649a67954af4963600a0c8ab31a"
+arch = "x86_64"
+git-tree-sha1 = "19610bd094bfbe96bb4195cb6e8064670fe02af3"
 libc = "glibc"
 os = "linux"
 
     [[Zlib.download]]
-    sha256 = "c6210cadb32f5a8098cbbe7422d2f0ff4c029af463e740e211692a2cfaea9223"
-    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+5/Zlib.v1.2.11.arm-linux-gnueabihf.tar.gz"
+    sha256 = "0c6fd62e29cdd1c32d478e8536e29876b7407410a1edbf02dee663b2de8d32df"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.x86_64-linux-gnu.tar.gz"
+[[Zlib]]
+arch = "x86_64"
+git-tree-sha1 = "a69eb958cedfac05403f56dded39c0b568bb313f"
+os = "windows"
+
+    [[Zlib.download]]
+    sha256 = "a5e38f31e529048f81fea980cb498a5f3e9bc249af95401b721bd7f15ee7093f"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.x86_64-w64-mingw32.tar.gz"
+[[Zlib]]
+arch = "aarch64"
+git-tree-sha1 = "e76f236ebd31ff6ce50bc6c6f3f348c301170b30"
+libc = "musl"
+os = "linux"
+
+    [[Zlib.download]]
+    sha256 = "c7fb485f6d653159855364a3586c3711b5d65175c40d5fc3270ba7eb2c5df011"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.aarch64-linux-musl.tar.gz"
+[[Zlib]]
+arch = "armv7l"
+git-tree-sha1 = "12bed4a0b8d89b768f45683403011eec5cda0ed9"
+libc = "glibc"
+os = "linux"
+
+    [[Zlib.download]]
+    sha256 = "34b3780b22c24f4546aa90d432a8228125386bc4a483fac2e5ee2a8d24cdeb87"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.arm-linux-gnueabihf.tar.gz"
+[[Zlib]]
+arch = "i686"
+git-tree-sha1 = "8756b4424e1a43d01c38b489115b22aa3273bd78"
+libc = "musl"
+os = "linux"
+
+    [[Zlib.download]]
+    sha256 = "09c1b5004e8ec3b6ce68a624df9676dff2e33ba06a2ff96e0aa7728b404dadb5"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.i686-linux-musl.tar.gz"
+[[Zlib]]
+arch = "armv7l"
+git-tree-sha1 = "b1e93927d5a4e660b50ae4336d3dd6860707b115"
+libc = "musl"
+os = "linux"
+
+    [[Zlib.download]]
+    sha256 = "4f7fa616185d3c201a45f347dff624206662456340616af21d3777933a1fed49"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.arm-linux-musleabihf.tar.gz"
+[[Zlib]]
+arch = "aarch64"
+git-tree-sha1 = "dcca77235a014b700241295f9fdde92822633aa3"
+libc = "glibc"
+os = "linux"
+
+    [[Zlib.download]]
+    sha256 = "5b364f1d339f627b693753a24a725789f81f028ccb26fd98227719975085f79f"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.aarch64-linux-gnu.tar.gz"
+[[Zlib]]
+arch = "i686"
+git-tree-sha1 = "0488bf7458ad60b561908eb1b9dd3a57bd3c1b35"
+os = "windows"
+
+    [[Zlib.download]]
+    sha256 = "e6532cd2be9d4a012afecc84530376a80aae283183381b6d6101b534758fdc54"
+    url = "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+6/Zlib.v1.2.11.i686-w64-mingw32.tar.gz"

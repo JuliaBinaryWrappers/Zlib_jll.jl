@@ -5,6 +5,7 @@ export libz
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "PATH"
+LIBPATH_default = ""
 
 # Relative path to `libz`
 const libz_splitpath = ["bin", "libz.dll"]

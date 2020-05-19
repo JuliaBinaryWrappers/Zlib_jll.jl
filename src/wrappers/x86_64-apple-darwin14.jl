@@ -5,6 +5,7 @@ export libz
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
+LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libz`
 const libz_splitpath = ["lib", "libz.1.2.11.dylib"]

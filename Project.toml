@@ -1,6 +1,6 @@
 name = "Zlib_jll"
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-version = "1.2.12+4"
+version = "1.2.13+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -10,4 +10,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.6"
+julia = "1.9"

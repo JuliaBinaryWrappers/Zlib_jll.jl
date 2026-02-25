@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("Zlib")
-JLLWrappers.@generate_main_file("Zlib", UUID("83775a58-1f1d-513f-b197-d71354ab007a"))
+JLLWrappers.@generate_main_file("Zlib", Base.UUID("83775a58-1f1d-513f-b197-d71354ab007a"))
 end  # module Zlib_jll

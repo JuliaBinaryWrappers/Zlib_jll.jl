@@ -1,9 +1,5 @@
-# Use baremodule to shave off a few KB from the serialized `.ji` file
-baremodule Zlib_jll
-using Base
-using Base: UUID
-import JLLWrappers
+module Zlib_jll
+using LazyJLLWrappers
+@generate_jll_from_toml()
+end # module Zlib_jll
 
-JLLWrappers.@generate_main_file_header("Zlib")
-JLLWrappers.@generate_main_file("Zlib", Base.UUID("83775a58-1f1d-513f-b197-d71354ab007a"))
-end  # module Zlib_jll

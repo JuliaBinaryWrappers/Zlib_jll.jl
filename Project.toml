@@ -1,4 +1,4 @@
-version = "1.4.1"
+version = "1.4.2"
 name = "Zlib_jll"
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
 
@@ -9,4 +9,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 julia = "1.10"
-LazyJLLWrappers = "1.2.2"
+LazyJLLWrappers = "1.2.7"
